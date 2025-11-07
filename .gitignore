@@ -1,7 +1,69 @@
-venv
-ember
-ember_files
-*.pkl
-malware_detection_results/models/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# Data files
+*.csv
+*.jsonl
 *.json
+*.pkl
 *.npz
+*.npy
+*.tar
+*.gz
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Model outputs
+*.h5
+*.pt
+*.pth
+*.joblib
+*.sav
+*.model
+
+# Reports and figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+malware_detection_results/
+reports/
+figures/
+
+# Cache and build
+.cache/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary test or debug scripts
+test_*.py
+debug_*.py
